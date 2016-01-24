@@ -1,0 +1,13 @@
+{
+  "name": "Reload Sofus",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Keep Sofus alive all day",
+  "web_accessible_resources": [],
+  "content_scripts": [
+    {
+      "matches": ["http://sofus.systek.no/*"],
+      "js": ["sofus.js"]
+    }
+  ]
+}
