@@ -6,7 +6,7 @@
   "web_accessible_resources": [],
   "content_scripts": [
     {
-      "matches": ["http://sofus.systek.no/*"],
+      "matches": ["http://timer.systek.no/*"],
       "js": ["sofus.js"]
     }
   ]
